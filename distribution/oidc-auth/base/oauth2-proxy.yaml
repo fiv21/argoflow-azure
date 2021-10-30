@@ -40,21 +40,21 @@ spec:
       - name: extraArgs.skip-provider-button
         value: "true"
       - name: extraArgs.cookie-domain
-        value: .<<__domain__>>
+        value: .acx-kubeflow.zerotomlops.com
       - name: extraArgs.whitelist-domain
-        value: .<<__domain__>>
+        value: .acx-kubeflow.zerotomlops.com
       - name: extraArgs.oidc-issuer-url
-        value: <<__oidc.issuer__>>
+        value: https://auth.acx-kubeflow.zerotomlops.com
       # - name: extraArgs.login-url
-      #   value: "<<__oidc.issuer__>>/auth/realms/kubeflow/protocol/openid-connect/auth"
+      #   value: "https://auth.acx-kubeflow.zerotomlops.com/auth/realms/kubeflow/protocol/openid-connect/auth"
       # - name: extraArgs.oidc-jwks-url
-      #   value: "https://<<__oidc.issuer__>>/keys"
+      #   value: "https://https://auth.acx-kubeflow.zerotomlops.com/keys"
       # - name: extraArgs.redeem-url
-      #   value: "<<__oidc.issuer__>>/auth/realms/kubeflow/protocol/openid-connect/token"
+      #   value: "https://auth.acx-kubeflow.zerotomlops.com/auth/realms/kubeflow/protocol/openid-connect/token"
       # - name: extraArgs.profile-url
-      #   value: "<<__oidc.issuer__>>/auth/realms/kubeflow/protocol/openid-connect/userinfo"
+      #   value: "https://auth.acx-kubeflow.zerotomlops.com/auth/realms/kubeflow/protocol/openid-connect/userinfo"
       # - name: extraArgs.validate-url
-      #   value: "<<__oidc.issuer__>>.nl/auth/realms/kubeflow/protocol/openid-connect/userinfo"
+      #   value: "https://auth.acx-kubeflow.zerotomlops.com.nl/auth/realms/kubeflow/protocol/openid-connect/userinfo"
       # - name: extraArgs.scope
       #   value: email
       # - name: extraArgs.scope
