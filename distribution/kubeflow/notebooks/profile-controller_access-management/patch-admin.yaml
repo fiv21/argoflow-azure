@@ -4,4 +4,4 @@ metadata:
   name: profiles-config
   namespace: kubeflow
 data:
-  ADMIN: "vargasfrancoivan@gmail.com"
+  ADMIN: "franco.vargas@caylent.com"
