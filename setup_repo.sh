@@ -1,5 +1,5 @@
 #!/bin/bash
-
+export DISTRIBUTION_PATH=./distribution # folder where the distribution's YAML files are to be found
 # Auth setup
 
 COOKIE_SECRET=$(python3 -c 'import os,base64; print(base64.urlsafe_b64encode(os.urandom(16)).decode())')
